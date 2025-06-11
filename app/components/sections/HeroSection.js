@@ -23,8 +23,7 @@ export default function HeroSection() {
 
         {/* Subtitle */}
         <p className="mx-auto mb-8 max-w-3xl text-xl leading-relaxed text-gray-600 md:text-2xl">
-          Master Dutch with personalized lessons, practical exercises, and
-          expert guidance.{" "}
+          Personalized lessons, practical exercises, and expert guidance.
         </p>
 
         {/* CTA buttons */}
