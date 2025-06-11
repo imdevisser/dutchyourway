@@ -239,8 +239,9 @@ export default function Terms() {
               </h3>
               <p className="mb-4 leading-relaxed text-gray-700">
                 For online courses hosted on external platforms (such as Udemy),
-                please refer to the respective platform's refund policy. Links
-                to specific refund policies can be found on the course pages.
+                please refer to the respective platform&apos;s refund policy.
+                Links to specific refund policies can be found on the course
+                pages.
               </p>
             </section>
 
@@ -259,7 +260,7 @@ export default function Terms() {
                 <li>Compatible device (computer, tablet, or smartphone)</li>
               </ul>
               <p className="leading-relaxed text-gray-700">
-                Technical issues on the student's end that prevent lesson
+                Technical issues on the student&apos;s end that prevent lesson
                 attendance will be handled on a case-by-case basis.
               </p>
             </section>
