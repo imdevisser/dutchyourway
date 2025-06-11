@@ -1,4 +1,3 @@
-// import Benefits from "../reusable/Benefits";
 import CTA from "../reusable/CTA";
 import SmoothScrollLink from "../ui/SmoothScrollLink";
 
@@ -8,7 +7,7 @@ export default function HeroSection() {
       {/* Dutch flag icon */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <div className="mx-auto max-w-4xl">
-          <div className="mb-8 flex items-center justify-center">
+          <div className="mb-8 mt-8 md:mt-0 flex items-center justify-center">
             <div className="rounded-full bg-white p-4 shadow-lg">
               <span className="text-3xl">🇳🇱</span>
             </div>
