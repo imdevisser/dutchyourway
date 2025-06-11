@@ -17,11 +17,11 @@ export default function Footer() {
   };
 
   // Custom component for section navigation
-  const SectionLink = ({ href, children, className, onClick }) => {
+  const SectionLink = ({ href, children, className, onClick, route }) => {
     const handleClick = (e) => {
       if (pathname !== "/") {
         e.preventDefault();
-        handleSectionNavigation(href);
+        handleSectionNavigation(href, route);
       }
       if (onClick) onClick();
     };
@@ -47,9 +47,19 @@ export default function Footer() {
       },
     ],
     quickLinks: [
-      { label: "Free Resources", href: "#free-resources", isSection: true },
-      { label: "About", href: "#about", isSection: true },
-      { label: "Contact", href: "#contact", isSection: true },
+      {
+        label: "Free Resources",
+        href: "#free-resources",
+        route: "/free-resources",
+        isSection: true,
+      },
+      { label: "About", href: "#about", route: "/about", isSection: true },
+      {
+        label: "Contact",
+        href: "#contact",
+        route: "/contact",
+        isSection: true,
+      },
     ],
   };
 
