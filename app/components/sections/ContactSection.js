@@ -77,7 +77,7 @@ export default function ContactSection() {
     } catch (error) {
       console.error("Error:", error);
       alert(
-        "Failed to send message. Please try again or contact directly via email.",
+        "Failed to send message. Please try again or contact directly via email."
       );
     } finally {
       setIsSubmitting(false);
@@ -88,7 +88,7 @@ export default function ContactSection() {
     {
       icon: "📧",
       title: "Email",
-      detail: "irmarie@nederlandsvoorafrikaans.nl",
+      detail: "irmarie@dutch-your-way.com",
       description: "Send me an email anytime",
     },
     {
@@ -201,7 +201,7 @@ export default function ContactSection() {
                   <input
                     type="hidden"
                     name="_to"
-                    value="irmarie@nederlandsvoorafrikaans.nl"
+                    value="irmarie@dutch-your-way.com"
                   />
                   {/* Name Field */}
                   <div>
