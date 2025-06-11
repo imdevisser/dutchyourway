@@ -215,7 +215,7 @@ export default function Header() {
                               item={dropdownItem}
                               onClick={() => setActiveDropdown(null)}
                             />
-                          ),
+                          )
                         )}
                       </div>
                     </div>
@@ -333,7 +333,7 @@ export default function Header() {
                                 setIsMobileMenuOpen(false);
                               }}
                             />
-                          ),
+                          )
                         )}
                       </div>
 

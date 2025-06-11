@@ -180,6 +180,7 @@ export default function Footer() {
                   {link.isSection ? (
                     <SectionLink
                       href={link.href}
+                      route={item.route}
                       className="inline-block transform text-gray-300 transition-colors duration-300 hover:translate-x-1 hover:text-white"
                     >
                       {link.label}
@@ -244,6 +245,7 @@ export default function Footer() {
               </Link>
               <SectionLink
                 href="#contact"
+                route={item.route}
                 className="text-gray-400 transition-colors duration-300 hover:text-white"
               >
                 Contact
