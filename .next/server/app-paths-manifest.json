@@ -1,16 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/icon.png/route": "app/icon.png/route.js",
-  "/free-resources/page": "app/free-resources/page.js",
-  "/lessons/page": "app/lessons/page.js",
-  "/about/page": "app/about/page.js",
-  "/dutch-for-afrikaans/page": "app/dutch-for-afrikaans/page.js",
-  "/page": "app/page.js",
-  "/lessons/intermediate/page": "app/lessons/intermediate/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/shop/[productId]/page": "app/shop/[productId]/page.js",
-  "/shop/page": "app/shop/page.js",
   "/lessons/beginner/page": "app/lessons/beginner/page.js",
-  "/policy/terms-and-conditions/page": "app/policy/terms-and-conditions/page.js",
-  "/policy/privacy/page": "app/policy/privacy/page.js"
+  "/page": "app/page.js",
+  "/free-resources/page": "app/free-resources/page.js",
+  "/dutch-for-afrikaans/page": "app/dutch-for-afrikaans/page.js"
 }

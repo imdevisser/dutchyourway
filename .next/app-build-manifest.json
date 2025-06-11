@@ -1,125 +1,36 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/app/_not-found/page-5e48614818430b16.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/css/9cf46201d7475621.css",
-      "static/chunks/874-72049fde6fa438c7.js",
-      "static/chunks/63-96f51cd35e6f1e9e.js",
-      "static/chunks/445-71ae29a6b402ecc1.js",
-      "static/chunks/app/layout-40518c0d41d888e9.js"
-    ],
-    "/free-resources/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/874-72049fde6fa438c7.js",
-      "static/chunks/63-96f51cd35e6f1e9e.js",
-      "static/chunks/640-c71f7b821f2dc508.js",
-      "static/chunks/app/free-resources/page-586bf652c886d3d3.js"
-    ],
-    "/lessons/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/app/lessons/page-e490d91504fd6c3a.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/63-96f51cd35e6f1e9e.js",
-      "static/chunks/app/about/page-bc52e8c57207e977.js"
-    ],
-    "/dutch-for-afrikaans/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/874-72049fde6fa438c7.js",
-      "static/chunks/app/dutch-for-afrikaans/page-be4cc16d3dc0f013.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/css/8b7d179711c59696.css",
-      "static/chunks/874-72049fde6fa438c7.js",
-      "static/chunks/63-96f51cd35e6f1e9e.js",
-      "static/chunks/475-e9bf8a13c05f8947.js",
-      "static/chunks/357-1eb4b5198479133b.js",
-      "static/chunks/640-c71f7b821f2dc508.js",
-      "static/chunks/app/page-b6023a729239c6bb.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
-    "/lessons/intermediate/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/357-1eb4b5198479133b.js",
-      "static/chunks/app/lessons/intermediate/page-ef83a69640528675.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/357-1eb4b5198479133b.js",
-      "static/chunks/app/contact/page-625cab405f26978d.js"
-    ],
-    "/shop/[productId]/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/app/shop/[productId]/page-d59fc9d478481174.js"
-    ],
-    "/shop/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/app/shop/page-cb8548408664c036.js"
+    "/dutch-for-afrikaans/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dutch-for-afrikaans/page.js"
     ],
     "/lessons/beginner/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/874-72049fde6fa438c7.js",
-      "static/chunks/63-96f51cd35e6f1e9e.js",
-      "static/chunks/357-1eb4b5198479133b.js",
-      "static/chunks/445-71ae29a6b402ecc1.js",
-      "static/chunks/app/lessons/beginner/page-51cdd6cd6df3fa8e.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/lessons/beginner/page.js"
     ],
-    "/policy/terms-and-conditions/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/874-72049fde6fa438c7.js",
-      "static/chunks/app/policy/terms-and-conditions/page-951784fec6846229.js"
+    "/free-resources/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/free-resources/page.js"
     ],
-    "/policy/privacy/page": [
-      "static/chunks/webpack-c1928deef6c4139f.js",
-      "static/chunks/4bd1b696-b0792f8bf02277ca.js",
-      "static/chunks/684-e49d9565e71a38af.js",
-      "static/chunks/main-app-39fa45ee67380263.js",
-      "static/chunks/874-72049fde6fa438c7.js",
-      "static/chunks/app/policy/privacy/page-8a3a6a6ebc309b48.js"
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
