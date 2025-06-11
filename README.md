@@ -1,2 +1,2 @@
-# dutchyouway
+# dutchyourway
 Online Dutch lessons
