@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Privacy Policy",
+};
+
 export default function Privacy() {
   return (
     <div className="min-h-screen bg-gray-50 py-16">

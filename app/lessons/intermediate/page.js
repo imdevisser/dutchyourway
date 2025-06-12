@@ -1,6 +1,9 @@
 import Philosophy from "@/app/components/reusable/Philosophy";
 import ContactSection from "@/app/components/sections/ContactSection";
-import { Info } from "lucide-react";
+
+export const metadata = {
+  title: "Intermediate",
+};
 
 import {
   CheckCircle,

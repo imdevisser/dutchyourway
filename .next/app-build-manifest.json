@@ -17,16 +17,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dutch-for-afrikaans/page.js"
     ],
-    "/lessons/beginner/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/lessons/beginner/page.js"
-    ],
-    "/free-resources/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/free-resources/page.js"
-    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
@@ -8,13 +8,15 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
   subsets: ["latin"],
 });
 
 export const metadata = {
-  title: "Dutch Your Way",
+  title: {
+    default: "Dutch Your Way",
+    template: "%s | Dutch Your Way",
+  },
   description: "Dutch lessons for everyone",
 };
 
@@ -23,7 +25,7 @@ export default function RootLayout({ children }) {
     <>
       <Header />
       <html lang="en">
-        <body>{children}</body>
+        <body className={inter.className}>{children}</body>
       </html>
       <Footer />
     </>

@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Free Resources",
+};
+
 import FreeResourcesSection from "@/app/components/sections/FreeResourcesSection";
 
 export default function FreeResourcePage() {
