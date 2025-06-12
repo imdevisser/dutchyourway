@@ -5,10 +5,11 @@ function CtaAfrikaans() {
     <div className="text-center">
       <div className="mx-auto max-w-4xl rounded-2xl bg-gradient-to-r from-red-600 to-blue-600 p-8 text-white md:p-12">
         <h3 className="mb-4 text-3xl font-bold">
-          Is jy reg om Nederlands te praat?
+          Are you ready to speak Dutch?
         </h3>
         <p className="mb-8 text-xl opacity-90">
-          Kies die beste leermetode vir jou - aanlyn kursus of private lesse.
+          Choose the best learning method for you - online course or private
+          lessons.
         </p>
 
         <div className="grid gap-6 md:grid-cols-2">

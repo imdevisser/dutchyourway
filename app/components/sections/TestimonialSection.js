@@ -20,14 +20,14 @@ function TestimonialSection() {
     {
       id: 2,
       rating: 5,
-      text: "Irmarie is 'n uitstekende dosent en ons het haar klasse baie geniet. Haar studiemateriaal is gemik op Afrikaners en dit help baie om Nederlands te leer en te begin praat. Ek sal haar aan enige iemand aanbeveel.",
+      text: "Irmarie is an excellent lecturer and we really enjoyed her classes. Her study material is aimed at Afrikaners and it helps a lot to learn and start speaking Dutch. I would recommend her to anyone. (translated from Afrikaans)",
       name: "Cobus Smit",
       course: "Group classes",
     },
     {
       id: 3,
       rating: 5,
-      text: "Irmarie is baie behulpsaam en vriendelik en het baie kennis oor Nederland self sowel as die taal. As ‘n onderwyser deel ook graag als wat sy weet en bied ook baie hulp sowel as hulpbronne aan. Haar boek wat op Amazon te koop is, is ek baie beïndruk mee en sal elkeen aanbeveel om een te koop – ek is baie bly ek het. Sy doen baie moeite vir haar Nederlands leerders om dit vir jou so lekker en leersaam moontlik te maak in elke les.",
+      text: "Irmarie is very helpful and friendly and has a lot of knowledge about the Netherlands itself as well as the language. As a teacher she also likes to share everything she knows and also offers a lot of help as well as resources. I am very impressed with her book which is available on Amazon and would recommend everyone to buy one – I am very glad I did. She puts a lot of effort into her Dutch learners to make it as enjoyable and educational as possible for you in every lesson. (translated from Afrikaans)",
       name: "Deidre Stal",
       course: "Group classes",
     },
@@ -41,14 +41,14 @@ function TestimonialSection() {
     {
       id: 5,
       rating: 5,
-      text: "Ik raad Irmarie ten zeerste aan! Ze is een zeer rustige en geduldige docente en zorgt ervoor dat iedereen zich uitermate op zijn gemak voelt tijdens de lessen. Ze houdt de groepen ook klein wat de interactie minder stressvol maakt.De lessen zijn leuk, maar je leert wel en het wordt serieus genomen.",
+      text: "I highly recommend Irmarie! She is a very calm and patient teacher and makes sure that everyone feels very comfortable during the lessons. She also keeps the groups small which makes the interaction less stressful. The lessons are fun, but you do learn and it is taken seriously. (translated from Dutch)",
       name: "Quintus van Dyk",
       course: "Group classes",
     },
     {
       id: 6,
       rating: 5,
-      text: "Irmarie se klasse was 'n uitstekende manier om Nederlands te begin leer. Die klasse was nie alleen leersaam nie, maar ook interessant, aangesien sy meer vertel het oor onder andere die kultuur, eetgewoontes en musiek van die land. Die klasse was 'n kombinasie van teorie en taaloefeninge, met genoeg tyd om ook uitspraak in lees- en spreekoefeninge te oefen. Die lesse is goed aangevul deur haar handboek, ekstra materiaal op haar webtuiste, sowel as addisionele oefeninge en video's wat sy weekliks beskikbaar gestel het. Ek het die kursus baie geniet en sal dit sterk aanbeveel vir enige Afrikaanssprekende wat Nederlands wil begin leer. ",
+      text: "Irmarie's classes were an excellent way to start learning Dutch. The classes were not only informative, but also interesting, as she told me more about the culture, eating habits and music of the country, among other things. The classes were a combination of theory and language exercises, with enough time to also practice pronunciation in reading and speaking exercises. The lessons were well complemented by her textbook, extra material on her website, as well as additional exercises and videos that she made available weekly. I really enjoyed the course and would highly recommend it to any Afrikaans speaker who wants to start learning Dutch. (translated from Afrikaans)",
       name: "Rika Butler",
       course: "Group classes",
     },

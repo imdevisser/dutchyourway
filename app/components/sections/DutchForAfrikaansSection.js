@@ -113,12 +113,12 @@ export default function DutchForAfrikaansSection() {
           </div>
 
           <h2 className="mb-6 text-4xl font-bold text-gray-800 md:text-5xl">
-            <span className="text-purple-700">Nederlands vir Afrikaans</span>{" "}
-            sprekers
+            <span className="text-purple-700">Dutch for Afrikaans</span>{" "}
+            speakers
           </h2>
           <p className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-600">
-            Praat jy Afrikaans? Dan het jy &apos;n groot voorsprong op ander
-            studente. Bou voort op jou bestaande kennis vir vinniger resultate.
+            Do you speak Afrikaans? Then you have a big advantage over other
+            students. Build on your existing knowledge for faster results.
           </p>
         </div>
 
@@ -152,7 +152,7 @@ export default function DutchForAfrikaansSection() {
         {/* Comparison Section */}
         <div className="mx-auto mb-16 max-w-2xl rounded-2xl bg-white p-8 shadow-lg md:p-12">
           <h3 className="mb-8 text-center text-2xl font-bold text-gray-800">
-            Sien die ooreenkomste
+            See the similarities
           </h3>
 
           <div className="grid gap-8 md:grid-cols-2">
@@ -192,7 +192,9 @@ export default function DutchForAfrikaansSection() {
           </div>
 
           <div className="mt-8 text-center">
-            <p className="text-gray-600 italic">Jy is reeds halfpad daar!</p>
+            <p className="text-gray-600 italic">
+              You&apos;re already halfway there!
+            </p>
           </div>
         </div>
 
@@ -203,23 +205,25 @@ export default function DutchForAfrikaansSection() {
               <span className="text-2xl">💭</span>
             </div>
             <h3 className="mb-4 text-2xl font-medium text-gray-800">
-              &quot;Maar die ooreenkomste maak dit eintlik <strong>meer</strong>{" "}
-              verwarrend!&quot;
+              &quot;But the similarities actually make it <strong>more</strong>{" "}
+              confusing!&quot;
             </h3>
           </div>
 
           <div className="mb-6 rounded-xl border-l-4 border-purple-400 bg-white p-6">
             <p className="mb-4 text-lg leading-relaxed text-gray-700">
-              Ek hoor jou dink:{" "}
+              I hear you thinking:{" "}
               <em>
-                &quot;Ja, ek weet dis soortgelyk, maar dis presies wat dit so
-                verwarrend maak! Ek hou aan foute maak, want ek weet nie meer
-                wanneer is dit dieselfde as Afrikaans, en wanneer nie.&quot;
+                &quot;Yes, I know it&apos;s similar, but that&apos;s exactly
+                what makes it so confusing! I keep making mistakes because I
+                don&apos;t know when it&apos;s the same as Afrikaans, and when
+                it&apos;s not.&quot;
               </em>
             </p>
             <p className="text-gray-600">
-              Jy is heeltemal reg - en dis presies hoekom jy iemand nodig het
-              wat <strong>beide tale deeglik</strong> verstaan.
+              You&apos;re absolutely right - and that&apos;s exactly why you
+              need someone who understands{" "}
+              <strong>both languages thoroughly</strong>.
             </p>
           </div>
 
@@ -229,13 +233,12 @@ export default function DutchForAfrikaansSection() {
                 <div className="mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-red-100">
                   <span className="text-red-600">⚠️</span>
                 </div>
-                <h4 className="font-semibold text-gray-800">Die probleem</h4>
+                <h4 className="font-semibold text-gray-800">The problem</h4>
               </div>
               <p className="text-sm leading-relaxed text-gray-600">
-                Die meeste Nederlandse kursusse verstaan ​nie die spesifieke
-                probleme waarmee Afrikaanssprekendes sukkel nie. Hulle behandel
-                jou soos enige ander beginner en mors tyd met dinge wat jy reeds
-                weet.
+                Most Dutch courses don&apos;t understand the specific problems
+                that Afrikaans speakers struggle with. They treat you like any
+                other beginner and waste time on things you already know.
               </p>
             </div>
 
@@ -244,12 +247,12 @@ export default function DutchForAfrikaansSection() {
                 <div className="mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-green-100">
                   <span className="text-green-600">✅</span>
                 </div>
-                <h4 className="font-semibold text-gray-800">My oplossing</h4>
+                <h4 className="font-semibold text-gray-800">My solution</h4>
               </div>
               <p className="text-sm leading-relaxed text-gray-600">
-                Met my agtergrond in beide tale, weet ek presies waar jy sal
-                struikel. Ek kan jou spesifieke foute uitwys en jou help om dit
-                doeltreffend te oorkom.
+                With my background in both languages, I know exactly where you
+                will stumble. I can point out your specific mistakes and help
+                you overcome them effectively.
               </p>
             </div>
           </div>
