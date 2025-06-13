@@ -21,7 +21,7 @@ import {
 export default function Intermediate() {
   const modules = [
     {
-      week: "Weeks 1-3",
+      // week: "Weeks 1-3",
       title: "Advanced Grammar & Structures",
       topics: [
         "Complex verb conjugations",
@@ -32,7 +32,7 @@ export default function Intermediate() {
       icon: FileText,
     },
     {
-      week: "Weeks 4-6",
+      // week: "Weeks 4-6",
       title: "Conversational Fluency",
       topics: [
         "Natural conversation flow",
@@ -43,7 +43,7 @@ export default function Intermediate() {
       icon: MessageCircle,
     },
     {
-      week: "Weeks 7-10",
+      // week: "Weeks 7-10",
       title: "Cultural Integration",
       topics: [
         "Dutch culture & customs",
@@ -53,7 +53,7 @@ export default function Intermediate() {
       icon: Users,
     },
     {
-      week: "Weeks 11-16",
+      // week: "Weeks 11-16",
       title: "Lots of conversation",
       topics: [
         "Since this course aims to be flexible, there will be lots of space to practice",
@@ -112,7 +112,7 @@ export default function Intermediate() {
             <div className="flex flex-wrap items-center justify-center gap-6 text-lg">
               <div className="flex items-center">
                 <Clock className="mr-2 h-5 w-5" />
-                10-16 weeks
+                10-15 weeks
               </div>
               <div className="flex items-center">
                 <MessageCircle className="mr-2 h-5 w-5" />
@@ -202,9 +202,9 @@ export default function Intermediate() {
                         <IconComponent className="h-6 w-6 text-red-600" />
                       </div>
                       <div>
-                        <p className="text-sm font-medium text-red-600">
+                        {/* <p className="text-sm font-medium text-red-600">
                           {module.week}
-                        </p>
+                        </p> */}
                         <h3 className="text-xl font-bold text-gray-800">
                           {module.title}
                         </h3>

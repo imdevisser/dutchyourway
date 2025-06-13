@@ -85,8 +85,8 @@ export default function Footer() {
             </div>
             <p className="mb-6 leading-relaxed text-gray-300">
               Master Dutch with personalized lessons designed for your learning
-              style. From beginner basics to advanced conversation, I&apos;ll
-              help you achieve fluency.
+              style. From beginner basics to fluent conversations, I&apos;ll
+              help you achieve your goals.
             </p>
           </div>
 

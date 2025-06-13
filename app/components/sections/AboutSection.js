@@ -16,7 +16,7 @@ export default function AboutSection() {
           </div>
 
           <h2 className="mb-6 text-4xl font-bold text-gray-800 md:text-5xl">
-            Meet Your <span className="text-blue-600">Dutch Teacher</span>
+            Meet Your <span className="text-blue-600">Dutch Tutor</span>
           </h2>
           <p className="mx-auto max-w-2xl text-xl leading-relaxed text-gray-600">
             Passionate about helping students master Dutch through personalized,
@@ -25,8 +25,8 @@ export default function AboutSection() {
         </div>
 
         {/* Main Content */}
-        <div className="mx-auto max-w-5xl">
-          <div className="grid gap-6 lg:grid-cols-2 lg:gap-8">
+        <div className="mx-auto max-w-4xl">
+          <div className="grid gap-6 lg:grid-cols-2 lg:gap-1">
             {/* Left Column - Photo */}
             <div className="flex flex-col items-center justify-center lg:items-start">
               {/* Teacher Photo */}

@@ -57,7 +57,7 @@ const resources = [
   //AFRIKAANS
   {
     key: "afrikaans",
-    title: "Downloads Nederlands voor Afrikaans-sprekenden",
+    title: "Downloads Nederlands voor Afrikaans",
     image: "/book.png",
     content: (
       <div className="space-y-4">

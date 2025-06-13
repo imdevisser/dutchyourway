@@ -37,14 +37,20 @@ export default function Philosophy() {
             )}
           </span>
           . With my help and guidance, you will achieve this. But, and this is a{" "}
-          <strong>big BUT</strong>, you will also have to put in a lot of time
+          <strong>big but</strong>, you will also have to put in a lot of time
           and effort outside of class. Don&apos;t worry, it&apos;s fun! 🥳 I
           will provide plenty of support and materials to guide you through the
           process.
         </blockquote>
         <div className="mt-6 flex justify-center">
           <div className="rounded-full bg-white p-3 shadow-lg">
-            <span className="text-2xl">💙</span>
+            <a
+              href="https://drive.google.com/file/d/182cBmx9z8up2qBuoA6RTwvBRVRgKFlP7/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="text-2xl">💙</span>
+            </a>
           </div>
         </div>
       </div>

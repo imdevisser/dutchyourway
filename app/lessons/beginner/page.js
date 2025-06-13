@@ -21,7 +21,7 @@ import {
 export default function Beginner() {
   const modules = [
     {
-      week: "Weeks 1-2",
+      // week: "Weeks 1-2",
       title: "Dutch Basics & Pronunciation",
       topics: [
         "Dutch alphabet & sounds",
@@ -32,7 +32,7 @@ export default function Beginner() {
       icon: Volume2,
     },
     {
-      week: "Weeks 3-4",
+      // week: "Weeks 3-4",
       title: "Essential Vocabulary",
       topics: [
         "Family & relationships",
@@ -44,7 +44,7 @@ export default function Beginner() {
       icon: BookOpen,
     },
     {
-      week: "Weeks 5-6",
+      // week: "Weeks 5-6",
       title: "Grammar Foundations",
       topics: [
         "Irregular present tense verbs",
@@ -56,7 +56,7 @@ export default function Beginner() {
       icon: FileText,
     },
     {
-      week: "Weeks 7-8",
+      // week: "Weeks 7-8",
       title: "Practical Conversations",
       topics: [
         "Past tense verbs",
@@ -122,7 +122,7 @@ export default function Beginner() {
             <div className="flex flex-wrap items-center justify-center gap-6 text-lg">
               <div className="flex items-center">
                 <Clock className="mr-2 h-5 w-5" />
-                8-12 weeks
+                10-15 weeks
               </div>
               <div className="flex items-center">
                 <Target className="mr-2 h-5 w-5" />
@@ -208,9 +208,9 @@ export default function Beginner() {
                         <IconComponent className="h-6 w-6 text-blue-600" />
                       </div>
                       <div>
-                        <p className="text-sm font-medium text-blue-600">
+                        {/* <p className="text-sm font-medium text-blue-600">
                           {module.week}
-                        </p>
+                        </p> */}
                         <h3 className="text-xl font-bold text-gray-800">
                           {module.title}
                         </h3>
