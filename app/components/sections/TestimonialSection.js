@@ -13,10 +13,11 @@ function TestimonialSection() {
     {
       id: 1,
       rating: 5,
-      text: "I had a fantastic experience with Irmarie's Dutch course! As a native Afrikaans speaker, I found it particularly helpful to learn Dutch from someone who is fluent in both Dutch and Afrikaans. Irmarie was able to identify the shortcuts that Afrikaans speakers can take while also understanding the areas where Afrikaans speakers may struggle with Dutch. However, I would also strongly recommend her classes to non-Afrikaans speakers because Irmarie is extremely knowledgeable, very patient and just a really nice person to engage with during classes. Now that I have completed the course, I will greatly miss my weekly one-hour session with Irmarie. Thanks to her classes, I now have a better understanding of Dutch grammar and feel more confident using Dutch in my daily conversations. Overall, I highly recommend Irmarie's Dutch course to anyone looking to improve their Dutch language skills.",
-      name: "Maryna Lamprecht",
-      course: "Private lessons",
+      text: "Irmarie is an amazing teacher, making complex language rules easy to understand and fun to learn! She is extremely helpful, never making you feel silly for struggling. I would recommend her services to anyone who wants to learn Dutch!",
+      name: "Annie Mare",
+      course: "Group classes",
     },
+
     {
       id: 2,
       rating: 5,
@@ -34,9 +35,9 @@ function TestimonialSection() {
     {
       id: 4,
       rating: 5,
-      text: "Irmarie is an amazing teacher, making complex language rules easy to understand and fun to learn! She is extremely helpful, never making you feel silly for struggling. I would recommend her services to anyone who wants to learn Dutch!",
-      name: "Annie Mare",
-      course: "Group classes",
+      text: "I had a fantastic experience with Irmarie's Dutch course! As a native Afrikaans speaker, I found it particularly helpful to learn Dutch from someone who is fluent in both Dutch and Afrikaans. Irmarie was able to identify the shortcuts that Afrikaans speakers can take while also understanding the areas where Afrikaans speakers may struggle with Dutch. However, I would also strongly recommend her classes to non-Afrikaans speakers because Irmarie is extremely knowledgeable, very patient and just a really nice person to engage with during classes. Now that I have completed the course, I will greatly miss my weekly one-hour session with Irmarie. Thanks to her classes, I now have a better understanding of Dutch grammar and feel more confident using Dutch in my daily conversations. Overall, I highly recommend Irmarie's Dutch course to anyone looking to improve their Dutch language skills.",
+      name: "Maryna Lamprecht",
+      course: "Private lessons",
     },
     {
       id: 5,
@@ -56,7 +57,7 @@ function TestimonialSection() {
 
   return (
     <section className="py-20">
-      <div className="mx-auto max-w-4xl">
+      <div className="mx-auto max-w-5xl px-4">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={30}
@@ -76,25 +77,29 @@ function TestimonialSection() {
             },
           }}
           className="testimonial-swiper"
+          centeredSlides={true}
         >
           {testimonials.map((testimonial) => (
-            <SwiperSlide key={testimonial.id}>
-              <div className="mx-auto max-w-2xl text-center">
-                <div className="rounded-2xl bg-white p-8 shadow-lg">
-                  <div className="mb-4">
-                    <span className="text-5xl">
+            <SwiperSlide
+              key={testimonial.id}
+              className="flex items-center justify-center min-h-[500px]"
+            >
+              <div className="w-full max-w-3xl mx-auto flex items-center justify-center">
+                <div className="rounded-2xl bg-white p-8 md:p-12 shadow-lg text-center max-h-[450px] overflow-y-auto">
+                  <div className="mb-6">
+                    <span className="text-4xl md:text-5xl">
                       {"⭐".repeat(testimonial.rating)}
                     </span>
                   </div>
-                  <blockquote className="mb-4 text-lg leading-relaxed text-gray-700 italic">
+                  <blockquote className="mb-6 text-lg md:text-xl leading-relaxed text-gray-700 italic">
                     &quot;{testimonial.text}&quot;
                   </blockquote>
                   <div className="flex items-center justify-center">
                     <div>
-                      <p className="font-semibold text-gray-800">
+                      <p className="font-semibold text-gray-800 text-lg">
                         {testimonial.name}
                       </p>
-                      <p className="text-sm text-gray-600">
+                      <p className="text-sm text-gray-600 mt-1">
                         {testimonial.course}
                       </p>
                     </div>
