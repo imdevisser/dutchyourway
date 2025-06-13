@@ -12,15 +12,20 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
+    "/lessons/beginner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/lessons/beginner/page.js"
+    ],
     "/dutch-for-afrikaans/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/dutch-for-afrikaans/page.js"
     ],
-    "/_not-found/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/contact/page.js"
     ]
   }
 }

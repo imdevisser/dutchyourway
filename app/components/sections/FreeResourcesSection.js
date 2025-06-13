@@ -35,20 +35,20 @@ const resources = [
         </div>
         <div className="flex gap-3 p-1">
           <a
+            href="https://drive.google.com/file/d/182cBmx9z8up2qBuoA6RTwvBRVRgKFlP7/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg bg-blue-600 px-4 py-2 text-white transition-colors hover:bg-blue-700"
+          >
+            7 keys to success
+          </a>
+          <a
             href="https://www.notion.so/Beginner-Dutch-20808561c019801aac36c54197735618?source=copy_link"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg bg-blue-600 px-4 py-2 text-white transition-colors hover:bg-blue-700"
           >
-            For Beginners
-          </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg bg-blue-600 px-4 py-2 text-white transition-colors hover:bg-blue-700"
-          >
-            For Intermediate learners
+            Create your own planner
           </a>
         </div>
       </div>
