@@ -64,7 +64,7 @@ export default function AboutSection() {
                     (The Netherlands). I&apos;ve been passionate about languages
                     and different cultures my entire life. I speak English,
                     Dutch and Afrikaans fluently. I am currently learning
-                    Spanish and Zulu.
+                    Spanish.
                   </p>
 
                   <p>
