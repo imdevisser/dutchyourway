@@ -43,12 +43,12 @@ const resources = [
             7 keys to success
           </a>
           <a
-            href="https://www.notion.so/Beginner-Dutch-20808561c019801aac36c54197735618?source=copy_link"
+            href="https://drive.google.com/file/d/1ywv72bQNfQ468ms9r6V0Y8uKsfK1_cL5/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg bg-blue-600 px-4 py-2 text-white transition-colors hover:bg-blue-700"
           >
-            Create your own planner
+            Roadmap | Learn Dutch Your Way
           </a>
         </div>
       </div>
