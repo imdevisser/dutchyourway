@@ -115,7 +115,7 @@ export default function LessonsSection() {
               </p>
               <div>
                 <a
-                  href="https://www.supersaas.com/schedule/Your_Dutch_lesson/private"
+                  href="https://www.supersaas.com/schedule/Your_Dutch_lesson/private?m=0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-full bg-gradient-to-r from-red-600 to-blue-600 px-7 py-2.5 font-sans text-lg font-bold text-white no-underline"

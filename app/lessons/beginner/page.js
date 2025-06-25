@@ -21,7 +21,7 @@ import {
 export default function Beginner() {
   const modules = [
     {
-      // week: "Weeks 1-2",
+      week: "Weeks 1-3",
       title: "Dutch Basics & Pronunciation",
       topics: [
         "Dutch alphabet & sounds",
@@ -32,36 +32,32 @@ export default function Beginner() {
       icon: Volume2,
     },
     {
-      // week: "Weeks 3-4",
-      title: "Essential Vocabulary",
+      week: "Weeks 4-6",
+      title: "Grammar Foundations",
       topics: [
-        "Family & relationships",
+        "Prepositions",
         "Giving your opinion",
-        "Making appointments",
-        "Ordering in a restaurant",
-        "Lots of conversation practice",
+        "Object pronouns",
+        "Conjunction words",
       ],
       icon: BookOpen,
     },
     {
-      // week: "Weeks 5-6",
-      title: "Grammar Foundations",
+      week: "Weeks 7-10",
+      title: "Talking about the past",
       topics: [
+        "Different past tenses",
         "Irregular present tense verbs",
-        "Articles (de/het)",
-        "Object pronouns",
-        "Comparisons",
         "Lots of conversation practice",
       ],
       icon: FileText,
     },
     {
-      // week: "Weeks 7-8",
+      week: "Weeks 11-15",
       title: "Practical Conversations",
       topics: [
-        "Past tense verbs",
-        "Future tense verbs",
         "Introduction to separable verbs",
+        "Introduction to reflexive verbs",
         "Introduction to 'er'",
         "Lots of conversation practice",
       ],
@@ -109,7 +105,7 @@ export default function Beginner() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-6 inline-flex items-center rounded-full bg-blue-500/20 px-4 py-2 text-sm font-medium">
               <Star className="mr-2 h-4 w-4" />
-              A1-A2 Level • Perfect for Complete Beginners
+              A0-A2 Level • Perfect for Complete Beginners
             </div>
             <h1 className="mb-6 text-5xl font-bold md:text-6xl">
               Beginner Dutch Lessons
@@ -122,11 +118,11 @@ export default function Beginner() {
             <div className="flex flex-wrap items-center justify-center gap-6 text-lg">
               <div className="flex items-center">
                 <Clock className="mr-2 h-5 w-5" />
-                10-15 weeks
+                15 weeks
               </div>
               <div className="flex items-center">
                 <Target className="mr-2 h-5 w-5" />
-                A1-A2 Level
+                A0-A2 Level
               </div>
               <div className="flex items-center">
                 <Euro className="mr-2 h-5 w-5" />
@@ -208,9 +204,9 @@ export default function Beginner() {
                         <IconComponent className="h-6 w-6 text-blue-600" />
                       </div>
                       <div>
-                        {/* <p className="text-sm font-medium text-blue-600">
+                        <p className="text-sm font-medium text-blue-600">
                           {module.week}
-                        </p> */}
+                        </p>
                         <h3 className="text-xl font-bold text-gray-800">
                           {module.title}
                         </h3>
@@ -230,6 +226,39 @@ export default function Beginner() {
                   </div>
                 );
               })}
+            </div>
+          </section>
+
+          {/* Roadmap Section */}
+          <section className="mb-24">
+            <h2 className="mb-12 text-center text-4xl font-bold text-gray-800">
+              Complete <span className="text-blue-600">Roadmap</span>
+            </h2>
+            <div className="mx-auto max-w-3xl">
+              <div className="rounded-xl bg-white p-8 shadow-lg text-center">
+                <div className="mb-6 flex justify-center">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
+                    <FileText className="h-8 w-8 text-blue-600" />
+                  </div>
+                </div>
+                <h3 className="mb-4 text-2xl font-bold text-gray-800">
+                  Detailed Learning Roadmap
+                </h3>
+                <p className="mb-6 text-gray-600 leading-relaxed">
+                  Get a comprehensive overview of everything we&apos;ll cover in
+                  your Dutch learning journey. This detailed roadmap shows you
+                  exactly what to expect week by week.
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1ywv72bQNfQ468ms9r6V0Y8uKsfK1_cL5/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-full bg-blue-600 px-8 py-3 text-white font-medium hover:bg-blue-700 transition-colors duration-200"
+                >
+                  <FileText className="mr-2 h-5 w-5" />
+                  View Complete Roadmap
+                </a>
+              </div>
             </div>
           </section>
 
