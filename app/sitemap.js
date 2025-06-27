@@ -1,11 +1,11 @@
 // app/sitemap.js
-import { getAllPosts } from "./lib/blog";
+import { getAllPosts } from "@/lib/blog";
 
 export default async function sitemap() {
   const posts = await getAllPosts();
 
   const blogPosts = posts.map((post) => ({
-    url: `https://yourdomain.com/blog/${post.slug}`,
+    url: `https://dutch-your-way.com/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: "monthly",
     priority: 0.8,
@@ -13,13 +13,13 @@ export default async function sitemap() {
 
   return [
     {
-      url: "https://yourdomain.com",
+      url: "https://dutch-your-way.com",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://yourdomain.com/blog",
+      url: "https://dutch-your-way.com/blog",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
