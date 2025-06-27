@@ -1,6 +1,6 @@
 "use client";
 
-import SmoothScrollLink from "../ui/SmoothScrollLink";
+// import SmoothScrollLink from "../ui/SmoothScrollLink";
 import { useState, useEffect } from "react";
 import Logo from "../reusable/Logo";
 import Link from "next/link";
@@ -110,6 +110,7 @@ export default function Header() {
       route: "/free-resources",
     },
     { href: "#contact", label: "Contact", route: "/contact" },
+    // { href: "/blog", label: "Blog", route: "/blog" },
   ];
 
   // Custom component for section navigation

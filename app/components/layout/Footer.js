@@ -70,6 +70,7 @@ export default function Footer() {
         href: "#contact",
         isSection: true,
       },
+      { label: "Blog", href: "/blog" },
     ],
   };
 
