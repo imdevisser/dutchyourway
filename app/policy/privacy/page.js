@@ -219,7 +219,7 @@ export default function Privacy() {
               </p>
               <div className="mt-4 rounded-lg bg-gray-50 p-6">
                 <p className="mb-2 text-gray-700">
-                  <strong>Email:</strong> irmarie@nederlandsvoorafrikaans.nl
+                  <strong>Email:</strong> irmarie@dutch-your-way.com
                 </p>
                 <p className="text-gray-700">
                   <strong>Response Time:</strong> We aim to respond to all

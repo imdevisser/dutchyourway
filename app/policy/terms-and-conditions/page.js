@@ -306,7 +306,7 @@ export default function Terms() {
               </p>
               <div className="rounded-lg bg-gray-50 p-6">
                 <p className="mb-2 text-gray-700">
-                  <strong>Email:</strong> irmarie@nederlandsvoorafrikaans.nl
+                  <strong>Email:</strong> irmarie@dutch-your-way.com
                 </p>
                 <p className="mb-2 text-gray-700">
                   <strong>Contact Form:</strong> Use our website contact form
