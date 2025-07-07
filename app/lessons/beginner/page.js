@@ -157,7 +157,7 @@ export default function Beginner() {
               <div className="aspect-video">
                 <iframe
                   className="h-full w-full rounded-lg border-0 shadow-lg"
-                  src="https://www.youtube.com/watch?v=9MwNhwU1zVU"
+                  src="https://www.youtube.com/embed/9MwNhwU1zVU"
                   title="Comprehensible Input Video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
