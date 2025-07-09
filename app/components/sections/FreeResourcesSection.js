@@ -129,6 +129,11 @@ const resources = [
               level: "intermediate",
               link: "https://youtube.com/playlist?list=PL2WfhxZhUN9-ZOvfvSE0SkR6hoTKNYJNA&si=k6TiBZSAigRYbaua",
             },
+            {
+              name: "Ik hou van Holland (game show)",
+              level: "intermediate/advanced",
+              link: "https://youtube.com/playlist?list=PLACSKlF2A6hd5Grj4HHzGJOCt6osczf4C&si=TCVJpCnwlNdmXYJe",
+            },
           ].map((channel) => (
             <div
               key={channel.name}
