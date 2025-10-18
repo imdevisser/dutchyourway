@@ -323,32 +323,13 @@ export default function ContactSection() {
 
                 {/* Privacy Note */}
                 <p className="mt-4 text-xs text-gray-500">
-                  Your information is safe with me. I&apos;ll only use it to
-                  respond to your message.
+                  I&apos;ll only use your information to respond to your
+                  message.
                 </p>
               </div>
             </div>
           </div>
         </div>
-
-        {/* Bottom CTA */}
-        {/* <div className="mx-auto mt-16 max-w-4xl rounded-2xl bg-gradient-to-r from-blue-600 to-purple-600 p-8 text-white md:p-12">
-          <div className="text-center">
-            <h3 className="mb-4 text-2xl font-bold">
-              🚀 Ready to Start Your Dutch Adventure?
-            </h3>
-            <p className="mb-6 text-lg opacity-90">
-              Join hundreds of successful students who&apos;ve transformed their
-              Dutch skills. Your journey to fluency starts with a single
-              message!
-            </p>
-            <div className="flex justify-center">
-              <div className="rounded-full bg-white p-3 shadow-lg">
-                <span className="text-2xl">🇳🇱</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );

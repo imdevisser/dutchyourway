@@ -116,13 +116,13 @@ export default function Terms() {
                   Your email address will be used to create your student account
                 </li>
                 <li>
-                  <strong>10-lesson packages</strong> are valid for 4 months
-                  from purchase date
+                  <strong>lesson packages</strong> are valid until January 31st,
+                  2026
                 </li>
-                <li>
+                {/* <li>
                   <strong>20-lesson packages</strong> are valid for 8 months
                   from purchase date
-                </li>
+                </li> */}
                 <li>
                   <strong>Important:</strong> If lesson credits are not used
                   within the specified timeframe, the remaining lessons will be

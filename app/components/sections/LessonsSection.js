@@ -109,6 +109,16 @@ export default function LessonsSection() {
                 Check My Availability
               </h3>
 
+              <div className="mb-6 rounded-lg border-2 border-red-500 bg-red-50 p-4">
+                <p className="text-lg font-bold text-red-700">
+                  ⚠️ Limited Time: I will only be available for lessons until
+                  January 31st, 2026
+                </p>
+                <p className="mt-2 text-sm text-red-600">
+                  Secure your spot now before it&apos;s too late!
+                </p>
+              </div>
+
               <p className="mb-4 leading-relaxed text-gray-600">
                 View my available time slots below and reach out to schedule
                 your first lesson.
@@ -125,56 +135,6 @@ export default function LessonsSection() {
               </div>
             </div>
           </div>
-
-          {/* SuperSaaS Widget Container */}
-          {/* <div className="min-h-[400px] rounded-lg border border-gray-200 bg-white p-4">
-            <div id="supersaas-widget-container" className="h-full w-full">
-              <div className="flex h-64 items-center justify-center text-gray-500">
-                <div className="text-center">
-                  <svg
-                    className="mx-auto mb-2 h-8 w-8 animate-spin"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                    />
-                  </svg>
-                  <p>Loading availability calendar...</p>
-                </div>
-              </div>
-              <div className="mx-auto mb-6 max-w-2xl rounded-lg border border-blue-200 bg-blue-50 p-4">
-                <div className="flex items-start">
-                  <svg
-                    className="mt-0.5 mr-3 h-6 w-6 flex-shrink-0 text-blue-600"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                  <div className="text-blue-800">
-                    <p className="mb-1 font-semibold">Important Note:</p>
-                    <p className="text-sm leading-relaxed">
-                      Please contact me directly before booking a lesson so I
-                      can create your account and discuss your specific learning
-                      goals. This ensures the best possible learning experience
-                      for you!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

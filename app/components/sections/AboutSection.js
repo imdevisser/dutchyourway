@@ -55,7 +55,7 @@ export default function AboutSection() {
             <div className="flex flex-col justify-center">
               <div className="mb-8">
                 <h3 className="mb-6 text-2xl font-bold text-gray-800">
-                  Hallo! I&apos;m Irmarie 👋
+                  Hoi! I&apos;m Irmarie 👋
                 </h3>
 
                 <div className="space-y-5 leading-relaxed text-gray-700">
