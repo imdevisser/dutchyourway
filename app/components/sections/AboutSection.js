@@ -68,11 +68,11 @@ export default function AboutSection() {
                   </p>
 
                   <p>
-                    For almost 5 years, I&apos;ve had the privilege of teaching
-                    Dutch to students from around the world. What started as
-                    part-time online tutoring has grown into a thriving practice
-                    where I&apos;ve helped many learners achieve their Dutch
-                    language goals.
+                    For more than 5 years, I&apos;ve had the privilege of
+                    teaching Dutch to students from around the world. What
+                    started as part-time online tutoring has grown into a
+                    thriving practice where I&apos;ve helped many learners
+                    achieve their Dutch language goals.
                   </p>
 
                   <p>

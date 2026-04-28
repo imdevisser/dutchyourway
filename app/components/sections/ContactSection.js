@@ -88,7 +88,7 @@ export default function ContactSection() {
     {
       icon: "📧",
       title: "Email",
-      detail: "irmarie@dutch-your-way.com",
+      detail: "nederlandsvoorafrikaans@gmail.com",
       description: "Send me an email anytime",
     },
     {
@@ -201,7 +201,7 @@ export default function ContactSection() {
                   <input
                     type="hidden"
                     name="_to"
-                    value="irmarie@dutch-your-way.com"
+                    value="nederlandsvoorafrikaans@gmail.com"
                   />
                   {/* Name Field */}
                   <div>
